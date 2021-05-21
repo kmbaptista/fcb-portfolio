@@ -1,0 +1,36 @@
+body {
+	background-color: #f8f8f8;
+}
+
+img {
+	width: 250px;
+	height: 300px;
+	border-radius: 50%;
+}
+
+*{
+	font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2{
+	font-family: "Montserrat", sans-serif;
+}
+
+#landing,
+#gallery {
+  height: 80vh;
+  /* center the content vertically using flexbox */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+ul {list-style: none;
+	padding: 0;
+	color: #ffffff;
+}
+
+h2{
+	color: #007bff;
+}
